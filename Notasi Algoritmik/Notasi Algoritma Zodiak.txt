@@ -1,0 +1,35 @@
+ngulang <- true
+while ngulang do
+output = ("1.  20 Januari – 18 Februari")
+output = ("2.  19 Februari – 20 Maret")
+output = ("3.  21 Maret – 19 April")
+output = ("4.  20 April – 20 Mei")
+output = ("5.  21 Mei – 20 Juni")
+output = ("6.  21 Juni – 22 Juli")
+output = ("7.  23 Juli – 22 Agustus")
+output = ("8.  23 Agustus – 22 September")
+output = ("9.  23 September – 22 Oktober")
+output = ("10. 23 Oktober – 21 November")
+output = ("11. 22 November – 21 Desember")
+output = ("12. 22 Desember – 19 Januari")
+output = ("13. Keluar")
+
+output = ("Lahir kapan?")
+input (n)
+
+depend on
+n = 1 : komentar <- "Zodiak Aquarius"
+n = 2 : komentar <- "Zodiak Pisces"
+n = 3 : komentar <- "Zodiak Aries"
+n = 4 : komentar <- "Zodiak Taurus"
+n = 5 : komentar <- "Zodiak Gemini"
+n = 6 : komentar <- "Zodiak Cancer"
+n = 7 : komentar <- "Zodiak Leo"
+n = 8 : komentar <- "Zodiak Virgo"
+n = 9 : komentar <- "Zodiak Libra"
+n = 10 : komentar <- "Zodiak Scorpio"
+n = 11 : komentar <- "Zodiak Sagitarius"
+n = 12 : komentar <- "Zodiak Capricorn"
+n = 13 : ngulang <- false
+
+output(komentar)
